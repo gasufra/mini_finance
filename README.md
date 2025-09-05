@@ -1,4 +1,4 @@
-## **[Mini Finance Project](https://www.tooplate.com/live/2135_mini_finance) - CloudAdvisory Onboarding Task**
+## **[Mini Finance Project](http://mini-finance.georgeasufra.com) - CloudAdvisory Onboarding Task**
 
 This project is part of My Udemy Course [Git & GitHub for Absolute Beginners with Project](https://www.udemy.com/course/git-and-github-for-beginners-start-coding-collaboratively/?referralCode=2D07E24EAB31E15FC5A4)
 
@@ -11,7 +11,7 @@ This is not just an academic exercise—you will follow **industry-standard Git 
 ---
 
 ## **🎯 Project Overview: What is Mini Finance?**  
-The **[Mini Finance](https://www.tooplate.com/live/2135_mini_finance)** project is a **static website** that helps users manage their financial data. The key sections include:
+The **[Mini Finance](http://mini-finance.georgeasufra.com)** project is a **static website** that helps users manage their financial data. The key sections include:
 
 ✅ **Dashboard Overview** – Displays account balance, transactions, and financial insights.  
 ✅ **Profile Page** – Stores user details like name, email, and contact information.  
@@ -44,7 +44,7 @@ cd path/to/your/projects
 3️⃣ Clone the Mini Finance project:  
 
 ```sh
-git clone https://github.com/pravinmishraaws/mini_finance.git
+git clone https://github.com/gasufra/mini_finance.git
 ```  
 4️⃣ Navigate into the project directory:  
 
@@ -124,7 +124,7 @@ git push origin feature-alex-smith
 
 ### **Step 6: Create a Pull Request (PR)**
 1️⃣ Go to the **GitHub repository**:  
-👉 [Mini Finance GitHub Repository](https://github.com/pravinmishraaws/mini_finance)  
+👉 [Mini Finance GitHub Repository](https://github.com/gasufra/mini_finance)  
 2️⃣ Click **"Compare & Pull Request"**.  
 3️⃣ Add a meaningful **title & description**:  
 
@@ -218,3 +218,13 @@ Once you've made your LinkedIn post:
 💡 **Learning is great, but showcasing your skills is even better!** By sharing your achievement, you're taking a **big step towards building your professional reputation** in the industry.  
 
 See you in the **LinkedIn network!** 🎉
+
+Dynamic Date
+<p id="date"></p>
+    <script>
+       const today = new Date();
+        const day = today.getDate();
+        const month = today.getMonth() + 1; // Months are zero-based
+        const year = today.getFullYear();
+        document.getElementById("date").innerHTML = `${month}/${day}/${year}`;
+    </script>
