@@ -25,7 +25,7 @@ https://www.tooplate.com/view/2135-mini-finance
 
   --body-font-family:             'Unbounded';
 
-  --h1-font-size:                 74px;
+  --h1-font-size:                 80px;
   --h2-font-size:                 46px;
   --h3-font-size:                 32px;
   --h4-font-size:                 28px;
@@ -40,8 +40,8 @@ https://www.tooplate.com/view/2135-mini-finance
   --border-radius-medium:         20px;
   --border-radius-small:          10px;
 
-  --font-weight-light:            300;
-  --font-weight-normal:           400;
+  --font-weight-bold:            300;
+  --font-weight-bold:           400;
   --font-weight-bold:             700;
 }
 
